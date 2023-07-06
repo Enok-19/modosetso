@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6b0e0e; /* Color vino */
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    background-color: #4f0000; /* Color más oscuro para el cuadro */
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Sombra más oscura */
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+p {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff; /* Texto en blanco */
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 1em 2em;
+    margin: 0 1rem;
+    background-color: #a47c48;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #784c24;
+}
